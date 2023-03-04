@@ -3,7 +3,12 @@ function loveCalculator(){
  var otherName = prompt("His/Her name");
   var random = Math.random()*100;
   random = Math.floor(random)+1;
-  alert (yourName + "and" + otherName + "has a love percentage of = " + random + "%");
+
+  if(random > 70){
+    alert (yourName + "and" + otherName + "has a love percentage of = " + random + "% : You love each other like juliet and romeo");
+  } else{
+    alert (yourName + "and" + otherName + "has a love percentage of = " + random + "%");
+  }
 }
 
 loveCalculator();
