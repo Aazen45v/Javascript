@@ -1,0 +1,24 @@
+var output=[];
+var count=1;
+
+function fizzBuzz()
+{
+if(count%3===0 && count%5===0)
+ {
+  var array=output.push("fizzBuzz");
+ }
+ else if(count%3===0)
+ {
+  var array=output.push("fizz");
+ }
+ else if(count%5===0)
+ {
+  var array=output.push("buzz");
+ }
+ else
+ {
+  var array=output.push(count);
+ }
+count=count+1;
+console.log(output);
+}
