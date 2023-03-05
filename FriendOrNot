@@ -1,0 +1,15 @@
+function friends()
+{
+var friendList=["Amol","Swanand","Dakshita","Yazdan","Avantee","Sanika","Atharv","Anshika","Kritika"];
+var list=prompt("Enter your name to check if your friend or not");
+ if (friendList.includes(list))
+ {
+  alert("You are friend with the user");
+ }
+ else
+ {
+  alert("!!!Your are not in the friend list!!!");
+ }
+}
+
+friends()
