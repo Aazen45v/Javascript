@@ -1,0 +1,10 @@
+function HouseKeeper(name,age,hasWorkExperience,WorkType)
+    {
+    this.name=name,
+        this.age= age,
+        this.hasWorkExperience=hasWorkExperience,
+        this.WorkType=WorkType
+}
+
+
+var housekeeper1=new HouseKeeper("Aazen",20,true,"webdevelopment, c++");       //Creating new variable houseKeeper1 and Insering the values in the function HouseKeeper
