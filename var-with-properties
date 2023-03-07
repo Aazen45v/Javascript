@@ -1,0 +1,6 @@
+var houseKeeper1={
+    name: "kajal",
+        age: 20,
+        hasWorkExperience: false,
+        WorkType: ["Cloth washing" , "house cleaning"]
+}
