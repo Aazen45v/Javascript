@@ -1,0 +1,13 @@
+function WorkerProfile(name,age,hasWorkExperience,WorkType)
+    {
+    this.name=name,
+        this.age= age,
+        this.hasWorkExperience=hasWorkExperience,
+        this.WorkType=WorkType
+        this.work=function(){
+            alert("Work in progress....");
+        }
+}
+
+
+worker1.work();        //command to call the function
